@@ -1,0 +1,35 @@
+@keyframes rotateClockwise {
+  0% {
+    transform: translate(40%, 40%) rotate(0deg);
+  }
+  100% {
+    transform: translate(40%, 40%) rotate(-360deg);
+  }
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* div {
+  font-family: 'DegularDisplay-Semibold';
+} */
+
+
+.rotatingElement {
+  animation: rotateClockwise 20s linear infinite; /* Adjust the duration as needed */
+}
+
+
+
+  .text-stroke {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #2b2358
+  }
+
+/* .apperElement {
+  //animation: ping 2s linear reverse;
+} */
